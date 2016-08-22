@@ -56,7 +56,7 @@
 
 	Fetch.prototype.limit = function()
 	{
-		return 2;
+		return 3;
 	}
 
 	Fetch.prototype.ajax = function(opts)
@@ -98,7 +98,6 @@
 
 			var ajax = $.extend({}, task.ajax);
 			ajax.ooid = task.ooid;
-			ajax.data = {tt: ii++};
 
 			var fn = ajax.complete;
 			ajax.complete = function(xhr, status)
