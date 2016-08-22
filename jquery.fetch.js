@@ -78,7 +78,7 @@
 		
 		this.queue.add(obj);
 	}
-	var ii = 0;
+	
 	Fetch.prototype.execute = function()
 	{
 		if ( this.queue.size() < 1 ) return false;
